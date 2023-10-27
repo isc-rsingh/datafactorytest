@@ -4,7 +4,11 @@
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=rrs.database.windows.net;Initial Catalog=freesqldb"
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=rrs.database.windows.net;Initial Catalog=freesqldb",
+			"credential": {
+				"referenceName": "credential1",
+				"type": "CredentialReference"
+			}
 		}
 	}
 }
