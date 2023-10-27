@@ -1,0 +1,9 @@
+{
+	"name": "isc-rsingh-datafactorytest",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "88256592-fcbb-477b-8ed0-ce8a00e05bab",
+		"tenantId": "74abaa74-2829-4279-b25c-5743687b0bf5"
+	}
+}
